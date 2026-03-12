@@ -1,0 +1,64 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90vw;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+}
+
+.btn-header {
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+#quantidade {
+    padding: 5px;
+    width: 50px;
+}
+
+#area-cartelas {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.cartela-container {
+    display: inline-block;
+    text-align: center;
+}
+
+.cartela {
+    background-image: url('../assets/img/background.jpeg');
+    background-size: cover;
+    width: 580px;
+    height: 580px;
+    padding: 134px 120px 120px 126px;
+    margin: 10px;
+}
+
+.cartela tbody{
+    text-align: center;
+    background-color: transparent;
+    font-size: 2rem;
+    font-family: cursive;
+    border-collapse: collapse;
+}
+
+.cartela tr {
+    text-align: center;
+}
+
+.btn-download {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
